@@ -1,0 +1,203 @@
+body {
+    background-color: white;
+    }
+    
+    #row1 {
+        display: inline-flex;
+        text-align: center;
+        padding: 10px;
+        background-color: crimson;
+        max-width: none;
+        width: 100%;
+        justify-content: center;
+        
+      
+    }
+    
+    #row2 {
+        justify-content: left;
+      
+    }
+    
+    
+    .menu-timer {
+        color: white;
+        text-align: right;
+        
+    }
+    
+    .menu-high {
+        text-align: left;
+        color: white;
+    }
+    
+    #highScore {
+        color: white;
+    }
+    
+    .button-start{
+        background-color: crimson;
+        border-color: crimson;
+        border-radius: 25px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+        
+    }
+    .display-3 {
+        text-align: center;
+        font-family: 'Baloo 2', cursive;
+        font-weight: 600;
+        color:whitesmoke;
+       
+    }
+    
+    .lead {
+        text-align: center;
+    }
+    
+    .jumbotron {
+        background-color: white;
+        height: 270px;
+        
+    }
+    
+    .buttonRow {
+        justify-content: center;
+        padding: 5px;
+    }
+
+    #button1, #button2, #button3, #button4 {
+        background-color: white;
+        border-color: crimson;
+        border-radius: 25px;
+        color: crimson;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+    }
+   
+   
+    
+    .card {
+        background-color: whitesmoke;
+        border-radius: 25px;
+        border-width: 1px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+        color: white;
+        font-size: 18px;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 30px 40px;
+        text-align: center;
+        
+    }
+    
+    .card-head{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background: crimson;
+        border-radius: 25px;
+        color: white;
+        padding: 5pt;
+        text-align: center;
+    }
+
+    .card-header {
+        display: flex;
+        border-radius: 25px;
+        border-width: 1px;
+        flex-wrap: wrap;
+        width: 100%;
+        background: crimson;
+        color: white;
+        padding: 5pt;
+       justify-content: center;
+    }
+
+    .highscore-title {
+        text-align: center;
+        font-family: 'Baloo 2', cursive;
+        font-weight: 600;
+        color:whitesmoke;
+    }
+    
+
+    
+    #questionsCard {
+        display: none;
+    }
+    
+    #correctIncorrect {
+        font-size: xx-large;
+    }
+    
+    #buttonInitials {
+        display: none;
+    }
+    
+    #inlineFormInput {
+        display: none;
+        width: 30%;
+    }
+    
+    /* highScores HTML */
+    
+    #highRow {
+        padding: 10px;
+    }
+    
+    #mini {
+        color: crimson;
+    }
+    
+    #header {
+        font-size: 4.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    
+    #imageHigh {
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    /* Media query */
+    
+    @media (max-width: 1148px){
+
+        body {
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width: 1206px){
+     
+        body {
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width: 830px) {
+        .display-3 {
+            font-size: 350%;
+            margin-top: 1px;
+        }
+        .jumbotron {
+            height: 100%;
+        }
+        #cardMedia {
+            float: right;
+        }
+        body {
+            justify-content: center;
+        }
+    }
