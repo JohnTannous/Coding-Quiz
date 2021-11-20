@@ -1,38 +1,38 @@
 var questions = [{
-    question: "Who invented the rocking chair?",
-    answer1: "David Newman",
-    answer2: "Benjamin Franklin",
-    answer3: "Alan Shepard",
-    answer4: "Rodrigo Montero",
-    correct: "Benjamin Franklin"
+    question: "Who An HTML document can contain _____ the rocking chair?",
+    answer1: "Attributes",
+    answer2: "Tags",
+    answer3: "Raw text",
+    answer4: "All the answers are true",
+    correct: "All the answers are true"
   },{
-    question: "Wich is the most popular sport to create a film about?",
-    answer1: "Soccer",
-    answer2: "Base Ball",
-    answer3: "Boxing",
-    answer4: "Tenis",
-    correct: "Boxing"
+    question: "A page designed in HTML is called _____",
+    answer1: "Application",
+    answer2: "Cover page",
+    answer3: "Front-end",
+    answer4: "Web Page",
+    correct: "Web Page"
   },{
-    question: "What does the word Karate means?",
-    answer1: "To hit",
-    answer2: "The art of fighting",
-    answer3: "Fighter",
-    answer4: "Empty hand",
-    correct: "Empty hand"
+    question: "An HTML document is saved with the ____ extension.",
+    answer1: ".htl",
+    answer2: ".hml",
+    answer3: ".html",
+    answer4: "html",
+    correct: ".html"
   },{
-    question: "Where French fries were invented?",
-    answer1: "Belgium",
-    answer2: "France",
-    answer3: "Germany",
-    answer4: "Mexico",
-    correct: "Belgium"
+    question: "If we want to place text around an image, which CSS property should we use?",
+    answer1: "push",
+    answer2: "float",
+    answer3: "align",
+    answer4: "wrap",
+    correct: "float"
   },{
-    question: "In wich year Halley's Comet will appear again?",
-    answer1: "2026",
-    answer2: "2061",
-    answer3: "2080",
-    answer4: "3012",
-    correct: "2061"
+    question: "If we want to use a nice dotted border around an image, which css property are we going to use?",
+    answer1: "border-line",
+    answer2: "border-radius",
+    answer3: "border-style",
+    answer4: "border-color",
+    correct: "border-style"
   }];
   
 
